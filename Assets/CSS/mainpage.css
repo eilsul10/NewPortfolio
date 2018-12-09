@@ -1,0 +1,60 @@
+html,body{height:100%;max-width:100%;margin:0;overflow:hidden;background:rgba(0,10,20,1) url(http://i68.tinypic.com/2i7bc07.jpg) no-repeat;background-size:cover;image-rendering: pixelated; font-family:sans-serif}
+#space{width:100%}
+#warp{position:absolute;z-index:9;bottom:0;left:0;right:0;margin:0px auto;color:rgba(209, 255, 255,1);border:0px solid;padding:0em;width:10em;text-align:center;font-weight:700;font-size:1.2em;display:inline-block;text-decoration:none;background:rgba(0,0,0,0.8)}
+
+#name {
+    position:absolute;
+    z-index:9;
+    bottom:50%;
+    left:0;
+    right:0;
+    margin:10px auto;
+    color:rgba(209, 255, 255,1);
+    border:0px solid;
+    padding:0em;
+    width:10em;
+    text-align:center;
+    font-weight:700;
+    font-size:1.2em;
+    text-decoration:none;
+
+}
+
+/* follow me @nodws */
+#btn-twtr{
+  clear:both;
+  color:#fff;
+  border:2px solid;
+  border-radius:3px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  font-family:sans-serif;
+  font-size:14px;
+  width:13em;
+  padding:5px 10px;
+  font-weight:600;
+  position:absolute;
+  top:0;
+  right:10%;
+  margin:90vh 0;
+  background:rgba(0,0,0,0.2);
+  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+  opacity:0.3
+}#btn-twtr:hover{color:#fff;opacity:1}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://img.huffingtonpost.com/asset/5b7fdeab1900001d035028dc.jpeg?cache=sixpwrbb1s&ops=1910_1000");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: scroll;
+}
